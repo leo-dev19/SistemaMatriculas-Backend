@@ -1,0 +1,1139 @@
+[
+  {
+    "ContainingType": "servicio.Controllers.AnalyticsController",
+    "Method": "GetGenderCounts",
+    "RelativePath": "api/Analytics/genderCounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AnalyticsController",
+    "Method": "GetStudentsCounts",
+    "RelativePath": "api/Analytics/registeredStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AnalyticsController",
+    "Method": "GetStudentsCountsByGender",
+    "RelativePath": "api/Analytics/registeredStudentsByGender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AnalyticsController",
+    "Method": "GetTeachersCounts",
+    "RelativePath": "api/Analytics/registeredTeachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AsignacionDocenteController",
+    "Method": "GetAllAsignaciones",
+    "RelativePath": "api/AsignacionDocente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AsignacionDocenteController",
+    "Method": "AddAsignaciones",
+    "RelativePath": "api/AsignacionDocente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "asignacionDocenteDTO",
+        "Type": "servicio.Models.ModelsDTO.AsignacionDocenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AsignacionDocenteController",
+    "Method": "GetAsignacion",
+    "RelativePath": "api/AsignacionDocente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AsignacionDocenteController",
+    "Method": "EditAsignaciones",
+    "RelativePath": "api/AsignacionDocente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "asignacionDocenteDTO",
+        "Type": "servicio.Models.ModelsDTO.AsignacionDocenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.AsignacionDocenteController",
+    "Method": "DeleteGradoSeccion",
+    "RelativePath": "api/AsignacionDocente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "GetAllBanks",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "AddBank",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankDTO",
+        "Type": "servicio.Models.ModelsDTO.BankDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "DeleteBank",
+    "RelativePath": "api/Bank/(id)",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "EditBank",
+    "RelativePath": "api/Bank/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bankDTO",
+        "Type": "servicio.Models.ModelsDTO.BankDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "DesactivateBank",
+    "RelativePath": "api/Bank/desactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.BankController",
+    "Method": "ReinstateBank",
+    "RelativePath": "api/Bank/reinstate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "GetAllDocentes",
+    "RelativePath": "api/Docente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "AddDocente",
+    "RelativePath": "api/Docente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docenteDTO",
+        "Type": "servicio.Models.ModelsDTO.DocenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "DeleteDocente",
+    "RelativePath": "api/Docente/(id)",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "EditDocente",
+    "RelativePath": "api/Docente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "docenteDTO",
+        "Type": "servicio.Models.ModelsDTO.DocenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "DesactivateDocente",
+    "RelativePath": "api/Docente/desactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.DocenteController",
+    "Method": "ReinstateDocente",
+    "RelativePath": "api/Docente/reinstate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.GradoSeccionController",
+    "Method": "GetAllGradoSecciones",
+    "RelativePath": "api/GradoSeccion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.GradoSeccionController",
+    "Method": "AddGradoSeccion",
+    "RelativePath": "api/GradoSeccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gradoSeccionDTO",
+        "Type": "servicio.Models.ModelsDTO.GradoSeccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.GradoSeccionController",
+    "Method": "GetGradoSeccionById",
+    "RelativePath": "api/GradoSeccion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.GradoSeccionController",
+    "Method": "EditGradoSeccion",
+    "RelativePath": "api/GradoSeccion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gradoSeccionDTO",
+        "Type": "servicio.Models.ModelsDTO.GradoSeccionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.GradoSeccionController",
+    "Method": "DeleteGradoSeccion",
+    "RelativePath": "api/GradoSeccion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.HorarioController",
+    "Method": "GetAllHorarios",
+    "RelativePath": "api/Horario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.HorarioController",
+    "Method": "AddHorario",
+    "RelativePath": "api/Horario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "horarioDTO",
+        "Type": "servicio.Models.ModelsDTO.HorarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.HorarioController",
+    "Method": "EditHorario",
+    "RelativePath": "api/Horario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "horarioDTO",
+        "Type": "servicio.Models.ModelsDTO.HorarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.HorarioController",
+    "Method": "DeleteHorario",
+    "RelativePath": "api/Horario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.HorarioController",
+    "Method": "GetHorariosPorGradoSeccion",
+    "RelativePath": "api/Horario/porGradoSeccion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LegalGuardianController",
+    "Method": "GetAllLegalGuardians",
+    "RelativePath": "api/LegalGuardian",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LegalGuardianController",
+    "Method": "CreateLegalGuardian",
+    "RelativePath": "api/LegalGuardian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newLegalGuardian",
+        "Type": "ProyectoDSWI.Models.LegalGuardian",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LegalGuardianController",
+    "Method": "GetLegalGuardianByDNI",
+    "RelativePath": "api/LegalGuardian/{dni}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dni",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LegalGuardianController",
+    "Method": "UpdateLegalGuardian",
+    "RelativePath": "api/LegalGuardian/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLegalGuardian",
+        "Type": "servicio.Models.ModelsDTO.LegalGuardianDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LegalGuardianController",
+    "Method": "DeleteLegalGuardian",
+    "RelativePath": "api/LegalGuardian/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LoginController",
+    "Method": "Get",
+    "RelativePath": "api/Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "servicio.Models.ModelsDTO.LoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "GetAllMatriculas",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "AddMatricula",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matriculaDTO",
+        "Type": "servicio.Models.ModelsDTO.MatriculaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "GetMatriculaById",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "EditMatricula",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "matriculaDTO",
+        "Type": "servicio.Models.ModelsDTO.MatriculaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "DeleteMatricula",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "DesactivateMatricula",
+    "RelativePath": "api/Matricula/desactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.MatriculaController",
+    "Method": "ReinstateMatricula",
+    "RelativePath": "api/Matricula/reinstate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentController",
+    "Method": "GetAllPayments",
+    "RelativePath": "api/Payment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentController",
+    "Method": "AddPayment",
+    "RelativePath": "api/Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentController",
+    "Method": "GetPaymentById",
+    "RelativePath": "api/Payment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentController",
+    "Method": "UpdatePayment",
+    "RelativePath": "api/Payment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paymentDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentController",
+    "Method": "DeletePayment",
+    "RelativePath": "api/Payment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentStatusController",
+    "Method": "GetAllPaymentStatuses",
+    "RelativePath": "api/PaymentStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentStatusController",
+    "Method": "AddPaymentStatus",
+    "RelativePath": "api/PaymentStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentStatusDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentStatusController",
+    "Method": "GetPaymentStatusById",
+    "RelativePath": "api/PaymentStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentStatusController",
+    "Method": "UpdatePaymentStatus",
+    "RelativePath": "api/PaymentStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paymentStatusDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentStatusController",
+    "Method": "DeletePaymentStatus",
+    "RelativePath": "api/PaymentStatus/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentTypeController",
+    "Method": "GetAllPaymentTypes",
+    "RelativePath": "api/PaymentType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentTypeController",
+    "Method": "AddPaymentType",
+    "RelativePath": "api/PaymentType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentTypeDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentTypeController",
+    "Method": "GetPaymentTypeById",
+    "RelativePath": "api/PaymentType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentTypeController",
+    "Method": "UpdatePaymentType",
+    "RelativePath": "api/PaymentType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "paymentTypeDTO",
+        "Type": "servicio.Models.ModelsDTO.PaymentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.PaymentTypeController",
+    "Method": "DeletePaymentType",
+    "RelativePath": "api/PaymentType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.QuotaController",
+    "Method": "GetAllQuotas",
+    "RelativePath": "api/Quota",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.QuotaController",
+    "Method": "AddQuota",
+    "RelativePath": "api/Quota",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quotaDTO",
+        "Type": "servicio.Models.ModelsDTO.QuotaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.QuotaController",
+    "Method": "GetQuotaById",
+    "RelativePath": "api/Quota/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.QuotaController",
+    "Method": "UpdateQuota",
+    "RelativePath": "api/Quota/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quotaDTO",
+        "Type": "servicio.Models.ModelsDTO.QuotaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.QuotaController",
+    "Method": "DeleteQuota",
+    "RelativePath": "api/Quota/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.StudentController",
+    "Method": "RegisterStudent",
+    "RelativePath": "api/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Direction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Birthdate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "legalGuardianId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.IdentityDocument",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.Birthdate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.CellphoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LegalGuardian.Direction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.StudentController",
+    "Method": "EditStudent",
+    "RelativePath": "api/Student/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "servicio.Models.ModelsDTO.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "servicio.Controllers.StudentController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/Student/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
